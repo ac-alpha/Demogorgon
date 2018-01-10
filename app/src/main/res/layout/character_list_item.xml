@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/char_list_item_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="@dimen/views_padding"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/views_padding"
+    android:background="@drawable/list_item_shape">
+
+    <TextView
+        android:id="@+id/character_list_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/heading_font_size"
+        android:textColor="@color/colorPrimaryLight"
+        tools:text="Character Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/more_about_char"
+        android:text="@string/more_about_char"
+        android:textSize="@dimen/sub_heading_font_size"
+        android:gravity="right"/>
+
+</LinearLayout>

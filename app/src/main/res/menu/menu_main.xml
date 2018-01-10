@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ashutoshchaubey.demogorgon.MainActivity">
+
+    <item
+        android:id="@+id/about_the_app"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_info_outline_white_48dp"
+        android:title="@string/about_the_app"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/delete_all_visions"
+        android:icon="@drawable/ic_delete_white_48dp"
+        android:orderInCategory="200"
+        android:title="@string/delete_all_visions"
+        app:showAsAction="always" />
+
+</menu>

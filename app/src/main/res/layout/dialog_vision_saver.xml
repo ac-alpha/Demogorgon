@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dialog_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/curve_shape">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_will"
+        android:textSize="@dimen/heading_font_size"
+        android:padding="@dimen/views_padding"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="**Case Sensitive"
+        android:textColor="@color/SaveMe"
+        android:textSize="@dimen/sub_heading_font_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/views_padding">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/rescuer_name"
+            android:textSize="@dimen/sub_heading_font_size"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/entered_rescuer_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="Enter Rescuer Name"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/views_padding"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/submit_button_dialog_saver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_dialog"
+            android:textAllCaps="false"
+            android:textSize="@dimen/sub_heading_font_size"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

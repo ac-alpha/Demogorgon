@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context="com.example.ashutoshchaubey.demogorgon.AboutTheAppActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curve_shape"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/views_padding"
+            android:text="@string/about_the_app"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/heading_font_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_app_paragraph"
+            android:padding="@dimen/views_padding"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sub_heading_font_size"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/min_sdk"
+            android:padding="@dimen/views_padding"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sub_heading_font_size"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apk_size"
+            android:padding="@dimen/views_padding"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sub_heading_font_size"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/views_padding"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sub_heading_font_size"
+            android:text="@string/gen_info"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/views_padding"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sub_heading_font_size"
+            android:text="@string/dev_name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/views_padding"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sub_heading_font_size"
+            android:text="@string/email"/>
+    </LinearLayout>
+</ScrollView>

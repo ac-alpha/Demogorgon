@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Demogorgon</string>
+    <string name="delete_all_visions">Delete all visions</string>
+    <string name="add_new_vision">Add Vision</string>
+    <string name="rescuer_name">Rescuer Name :</string>
+    <string name="choose_image">Select Image</string>
+    <string name="submit_dialog">Submit</string>
+    <string name="save_will">Save Will!!</string>
+    <string name="more_about_char">More>></string>
+    <string name="number_of_rescues">Number of Rescues :</string>
+    <string name="developer_name">Made by Ashutosh Chaubey</string>
+    <string name="about_the_app">About the app</string>
+    <string name="about_app_paragraph">
+        Will ​Byers, ​of ​a ​small ​town ​named ​Indiana ​got ​teleported ​to ​a ​different dimension, ​the ​“Upside ​Down”. ​His ​friends, ​family ​and ​other ​acquaintances somehow ​managed ​to ​rescue ​him ​back ​from ​the ​upside ​down ​but ​along ​with him ​they ​also ​brought ​the ​horrific ​memories ​of ​the ​so ​called ​“Demogorgon” which ​kept ​haunting ​him ​for ​long. This app keeps track of all the visions Will has of the other world and bring him back each ​time ​he ​has ​one ​of ​his visions.
+    </string>
+    <string name="min_sdk">Minimum SDK Required : 19(KITKAT)</string>
+    <string name="apk_size">Apk Size : 25.8MB</string>
+    <string name="gen_info">Developed for DroidWars 2018</string>
+    <string name="dev_name">By Ashutosh Chaubey</string>
+    <string name="email">email : ashutoshchaubey15b@rediffmail.com</string>
+    <string name="confirm_deletion">Delete all visions?</string>
+    <string name="data_loss_warning">Warning : This may lead to huge data loss permanently</string>
+    <string name="chars_data_safe">However, you will still be able to keep track of rescues of all characters.</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+    <string name="click_anywhere">Click anywhere to continue</string>
+    <string name="select_image_from">Select image from</string>
+    <string name="capture">CAPTURE</string>
+    <string name="gallery">GALLERY</string>
+    <string name="crash_warning">**The app might crash on selecting too many images from camera or selecting high resolution images</string>
+    <string-array name="char_names_spinner">
+        <item>--Select--</item>
+        <item>Mike Wheeler</item>
+        <item>Eleven</item>
+        <item>Dustin Henderson</item>
+        <item>Lucas Sinclair</item>
+        <item>Max Mayfield</item>
+        <item>Joyce Byers</item>
+        <item>Jim Hopper</item>
+        <item>Jonathan Byers</item>
+        <item>Nancy Wheeler</item>
+        <item>Steve Harrington</item>
+        <item>Billy Hargrove</item>
+    </string-array>
+</resources>

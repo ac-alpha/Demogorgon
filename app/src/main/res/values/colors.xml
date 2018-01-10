@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2D080A</color>
+    <color name="colorPrimaryDark">#130303</color>
+    <color name="colorPrimaryLight">#FFCDBC</color>
+    <color name="colorAccent">#F5853F</color>
+    <color name="Rescued">#4CAF50</color>
+    <color name="example">#ff7043</color>
+    <color name="SaveMe">#E53935</color>
+    <color name="more_about_char">#FFFF8D</color>
+</resources>

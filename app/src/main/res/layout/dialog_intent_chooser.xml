@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/curve_shape"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/views_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/views_padding"
+        android:text="@string/select_image_from"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/heading_font_size" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/SaveMe"
+        android:text="@string/crash_warning"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_margin="@dimen/views_padding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/curve_shape">
+
+            <ImageView
+                android:id="@+id/capture_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingLeft="@dimen/views_padding"
+                android:paddingRight="@dimen/views_padding"
+                android:paddingBottom="-5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_capture" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/capture"
+                android:textSize="@dimen/sub_heading_font_size"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/views_padding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/curve_shape">
+
+            <ImageView
+                android:id="@+id/choose_image_from_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingLeft="@dimen/views_padding"
+                android:paddingRight="@dimen/views_padding"
+                android:paddingBottom="-5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/choose_from_gallery" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gallery"
+                android:textSize="@dimen/sub_heading_font_size"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

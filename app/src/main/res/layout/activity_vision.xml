@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vision_activity_parent_viewgroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF8A80"
+    tools:context="com.example.ashutoshchaubey.demogorgon.VisionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="@dimen/views_padding">
+
+        <ImageView
+            android:id="@+id/vision_activity_image"
+            android:src="@drawable/no_image_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/views_padding"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/vision_activity_text_over_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="RESCUED"
+            android:textColor="@color/Rescued"
+            android:textSize="@dimen/larger_heading_font_size"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/views_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rescuer_name"
+                android:textSize="@dimen/sub_heading_font_size"/>
+            <TextView
+                android:id="@+id/vision_activity_rescuer_name"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="@dimen/views_padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Name of the Rescuer"
+                android:textSize="@dimen/sub_heading_font_size"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/vision_activity_rescued"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/views_padding"
+            android:text="Save me"
+            android:background="#F44336"
+            android:textColor="#FFEBEE" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
